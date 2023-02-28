@@ -1,0 +1,7 @@
+# This is Git's per-user configuration file.
+[user]
+	name = yuvi
+	email = yuvi@gmail
+# Please adapt and uncomment the following lines:
+#	name = yuvraj
+#	email = root@ip-172-31-47-184.ap-south-1.compute.internal
