@@ -10,11 +10,22 @@
 
 # hlsearch on (H) or off (h):
 ~H
+# Last Substitute String:
+$
+
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1677579464,,"wq!"
+|2,0,1677582722,,"wq!"
+:q
+|2,0,1677582661,,"q"
+:x
+|2,0,1677582637,,"x"
+:wq
+|2,0,1677582544,,"wq"
 
 # Search String History (newest to oldest):
+? @$
+|2,1,1677582637,,"@$"
 
 # Expression History (newest to oldest):
 
@@ -23,24 +34,136 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
+""1	CHAR	0
+		1	15
+	+	1	15
+|3,1,1,0,2,0,1677582653,"	1	15","+	1	15"
+"2	BLOCK	15
+	file9           
+	tag             
+	text            
+|3,0,2,2,3,15,1677582614,"file9           ","tag             ","text            "
+"3	BLOCK	15
+	.viminfo        
+	file1           
+	file5           
+|3,0,3,2,3,15,1677582614,".viminfo        ","file1           ","file5           "
+"4	BLOCK	15
+	.gitconfig      
+	.project        
+	.tcshrc         
+|3,0,4,2,3,15,1677582614,".gitconfig      ",".project        ",".tcshrc         "
+"5	BLOCK	15
+	.bash_profile   
+	.bashrc         
+	.cshrc          
+|3,0,5,2,3,15,1677582614,".bash_profile   ",".bashrc         ",".cshrc          "
+"6	BLOCK	15
+	.ssh/           
+	test/           
+	.bash_logout    
+|3,0,6,2,3,15,1677582614,".ssh/           ","test/           ",".bash_logout    "
+"7	BLOCK	15
+	file9           
+	tag             
+	text            
+|3,0,7,2,3,15,1677582532,"file9           ","tag             ","text            "
+"8	BLOCK	15
+	.viminfo        
+	file1           
+	file5           
+|3,0,8,2,3,15,1677582532,".viminfo        ","file1           ","file5           "
+"9	BLOCK	15
+	.gitconfig      
+	.project        
+	.tcshrc         
+|3,0,9,2,3,15,1677582532,".gitconfig      ",".project        ",".tcshrc         "
+"d	CHAR	0
+	e€ýa€ýa€ýa€ýa€ýa€ýaiiiiii,s,;'.€ku€ku€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€ku€kd€kl€kl€kl€ýa€ýa:€ku€kd€kux€kd€ku€kdi€kdsx
+|3,0,13,0,1,0,1677582619,"e€ýa€ýa€ýa€ýa€ýa€ýaiiiiii,s,;'.€ku€ku€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€ku€kd€kl€kl€kl€ýa€ýa:€ku€kd€kux€kd€ku€kdi€kdsx"
+"-	CHAR	0
+		
+|3,0,36,0,1,0,1677582653,"	"
 
 # File marks:
-'0  4  14  ~/.gitconfig
-|4,48,4,14,1677579464,"~/.gitconfig"
-'1  1  16  ~/file1
-|4,49,1,16,1677578803,"~/file1"
+'0  1  39  ~/file9
+|4,48,1,39,1677582722,"~/file9"
+'1  56  20  ~/.viminfo
+|4,49,56,20,1677582664,"~/.viminfo"
+'2  4  14  ~/.gitconfig
+|4,50,4,14,1677579464,"~/.gitconfig"
+'3  1  16  ~/file1
+|4,51,1,16,1677578803,"~/file1"
 
 # Jumplist (newest first):
+-'  1  39  ~/file9
+|4,39,1,39,1677582722,"~/file9"
+-'  56  20  ~/.viminfo
+|4,39,56,20,1677582664,"~/.viminfo"
+-'  56  20  ~/.viminfo
+|4,39,56,20,1677582664,"~/.viminfo"
+-'  1  0  ~
+|4,39,1,0,1677582620,"~"
+-'  1  0  ~
+|4,39,1,0,1677582620,"~"
+-'  8  0  ~/test
+|4,39,8,0,1677582532,"~/test"
+-'  8  0  ~/test
+|4,39,8,0,1677582532,"~/test"
+-'  1  0  ~/test
+|4,39,1,0,1677582528,"~/test"
+-'  1  0  ~/test
+|4,39,1,0,1677582528,"~/test"
 -'  4  14  ~/.gitconfig
 |4,39,4,14,1677579464,"~/.gitconfig"
+-'  4  14  ~/.gitconfig
+|4,39,4,14,1677579464,"~/.gitconfig"
+-'  4  14  ~/.gitconfig
+|4,39,4,14,1677579464,"~/.gitconfig"
+-'  4  14  ~/.gitconfig
+|4,39,4,14,1677579464,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1677579444,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1677579444,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1677579444,"~/.gitconfig"
 -'  1  0  ~/.gitconfig
 |4,39,1,0,1677579444,"~/.gitconfig"
 -'  1  16  ~/file1
 |4,39,1,16,1677578803,"~/file1"
 -'  1  16  ~/file1
 |4,39,1,16,1677578803,"~/file1"
+-'  1  16  ~/file1
+|4,39,1,16,1677578803,"~/file1"
+-'  1  16  ~/file1
+|4,39,1,16,1677578803,"~/file1"
+-'  1  16  ~/file1
+|4,39,1,16,1677578803,"~/file1"
+-'  1  16  ~/file1
+|4,39,1,16,1677578803,"~/file1"
+-'  1  16  ~/file1
+|4,39,1,16,1677578803,"~/file1"
+-'  1  16  ~/file1
+|4,39,1,16,1677578803,"~/file1"
 
 # History of marks within files (newest to oldest):
+
+> ~/file9
+	*	1677582720	0
+	"	1	39
+	^	1	40
+	.	1	39
+	+	1	9
+	+	1	39
+
+> ~/.viminfo
+	*	1677582662	0
+	"	56	20
+	^	56	21
+	.	56	20
+	+	56	2
+	+	56	20
 
 > ~/.gitconfig
 	*	1677579459	0
@@ -53,5 +176,4 @@
 	*	1677578801	0
 	"	1	16
 	^	1	17
-	.	1	15
-	+	1	15
+	.ccscwcewdqwdqqwdqw:
